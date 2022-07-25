@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +15,6 @@
 </head>
 
 <style>
-    /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -44,7 +42,6 @@ html{
     background: #555;
 }
 
-/* all similar content styling codes */
 section{
     padding: 100px 0;
 }
@@ -95,7 +92,6 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* navbar styling */
 .navbar{
     position: fixed;
     width: 100%;
@@ -180,7 +176,6 @@ section .title::after{
 }
 
 
-/* home section styling */
 .home{
     display: flex;
     background: url("https://images.unsplash.com/photo-1640689046115-4ca085844817?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=944&q=80") no-repeat center;
@@ -231,7 +226,6 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
 .about .title::after{
     content: "who i am";
 }
@@ -275,7 +269,6 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
 .services, .teams{
     color:#fff;
     background: #111;
@@ -321,7 +314,6 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
 
 .skills .title::after{
     content: "what i know";
@@ -396,7 +388,6 @@ section .title::after{
     width: 70%;
 }
 
-/* teams section styling */
 .teams .title::after{
     content: "who with me";
 }
@@ -459,7 +450,6 @@ section .title::after{
     background: rgb(20, 220, 187)!important;
 }
 
-/* contact section styling */
 .contact .title::after{
     content: "get in touch";
 }
@@ -554,7 +544,6 @@ section .title::after{
   color: rgb(20, 220, 187);
   background: none;
 }
-/* footer section styling */
 footer{
     background: #111;
     padding: 15px 23px;
@@ -570,7 +559,6 @@ footer span a:hover{
 }
 
 
-/* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
@@ -956,7 +944,7 @@ footer span a:hover{
         }
     });
 
-    // slide-up script
+
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
         // removing smooth scroll on slide-up button click
